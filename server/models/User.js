@@ -6,7 +6,7 @@ const userSchema = new mongoose.Schema({
   email: {type:String,required:true},
   image: {type:String,required:true},
 })
-const User = mongoose.mode("User", userSchema)
+const User = mongoose.model("User", userSchema)
 
  
 export default User;
